@@ -12,4 +12,15 @@ public class Menagment {
         }
         return orange;
     }
+    @RequestMapping("/red2green")
+public class Menagment {
+    public static Color getBlock(Color colors){
+        if (RED.equals(colors)) {
+            System.out.println("Red");
+            ;
+        }
+        return green;
+    }
+
+        }
 }
